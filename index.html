@@ -7,25 +7,10 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
+  <div >
     <h1>Mystery Box</h1>
-    <button onclick="openBox()">Open</button>
-    <p id="message"></p>
+    <p>Open your imagination</p>
+    <p class="fun">Magic awaits!</p>
   </div>
-
-  <script>
-    const messages = [
-      "You found a star!",
-      "A secret is revealed!",
-      "Surprise! 🎉",
-      "Magic awaits!",
-      "Keep exploring!"
-    ];
-
-    function openBox() {
-      const msg = messages[Math.floor(Math.random() * messages.length)];
-      document.getElementById("message").textContent = msg;
-    }
-  </script>
 </body>
 </html>
